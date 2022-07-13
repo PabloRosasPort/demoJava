@@ -22,8 +22,8 @@ public class ComputadorasWs {
 	@Autowired
 	Metodos metodos;
 	// direccion de mi web service
-
-	// http://localhost:9000/ComputadorasWs/lista
+// modificado
+	///// http://localhost:9000/ComputadorasWs/lista
 
 	@GetMapping("lista")
 	public List<Computadoras> lista() {
